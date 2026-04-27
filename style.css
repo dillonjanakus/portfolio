@@ -110,3 +110,10 @@ a:hover {
 .project-btn:hover {
   background: #059669;
 }
+
+.project-img {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+}
