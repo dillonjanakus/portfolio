@@ -59,8 +59,14 @@
     <div class="project">
       <h3>Server-Authoritative Networked Combat Arena</h3>
       <p>
-        Built a C++ multiplayer combat game with server-authoritative networking, 
-        synchronized gameplay, and a polished real-time client UI.
+        This game is a simple multiplayer combat arena built with an Entity Component System (ECS) architecture, 
+        where each player connects to a central server and controls their own fighter in a small top-down battlefield. 
+        Players move with the keyboard, aim with the mouse, and shoot projectiles to damage opponents, 
+        while the server keeps track of positions, health, scores, respawning, and win conditions so that the match stays synchronized 
+        for everyone. The program includes a connection menu for entering a username, server IP, and port, 
+        then uses a state-machine-based game loop to move between the menu, connecting, active gameplay, and round-over screens. 
+        It also features reactive audio that changes depending on whether the player is in the menu, safely in combat, in danger, 
+        or at the end of the round, helping make the game feel more responsive and complete.
       </p>
       <img src="458270ce7cc4d7b82fa9df2e0f9b8d05.png" alt="Combat Arena Screenshot" class="project-img">
     </div>
